@@ -1,0 +1,66 @@
+cerner = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/cerner-1.png",
+    type: "SOAP",
+    documentationLink: "https://fhir.cerner.com/",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Cerner Millennium R4",
+    publisher: "",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: 1.2,
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Conformance",
+            items: ["CapabilityStatement", "StructureDefinition", "OperationDefinition"]
+        },
+        {
+            title: "Security",
+            items: ["Provence", "Consent"]
+        },
+        {
+            title: "Documents",
+            items: ["DocumentReference"]
+        },
+        {
+            title: "Other",
+            items: ["Binary", "HealthCards"]
+        },
+        {
+            title: "Workflow",
+            items: ["Appointment", "Schedule", "Slot"]
+        },
+        {
+            title: "Support",
+            items: ["Coverage"]
+        },
+        {
+            title: "Public Health & Research",
+            items: ["ResearchStudy", "ResearchSubject"]
+        },
+        {
+            title: "Individuals",
+            items: ["Patient", "Practitioner", "PractitionerRole", "RelatedPerson"]
+        },
+        {
+            title: "Entities",
+            items: ["Device", "Location", "Organization"]
+        },
+        
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["AbsenceRecord", "", ""],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["EHR", "CLINICIANS", "HOSPITALS", "FHIR"],
+    description: ["Cerner Ignite APIs are cloud-based allowing for rapid, agile deployment of future updates or enhancements. It also simplifies implementation of the APIs for healthcare providers because the ontology mapping process is centralized, which requires less effort than when performed on a per-deployment basis."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
