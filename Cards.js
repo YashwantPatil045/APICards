@@ -661,3 +661,1509 @@ cigna = {
     triggers: [],
     actions: ["Get Absence Record", "Get Something"]
 }
+
+
+
+
+
+
+bluestream = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/bluestream.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "BlueStream",
+  publisher: "BlueStream",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Authentication",
+    "Approved Access",
+    "Call Links",
+    "Customer",
+    "Expertise",
+    "Facility",
+    "Metadata",
+    "push API",
+    "Remote Expert",
+    "Reporting",
+    "Single Sign on (SSO)",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["PLATFORM", "VIRTUAL CARE", "TELEHEALTH", "NON FHIR"],
+  description: [
+    "Bluestream Health is a white-labelled, hosted platform that easily scales from the most basic deployment to complex, integrated, enterprise-wide clinical workflows. Bluestream enables virtual care delivery workflows that include both patient-to-provider as well as provider-to-provider. Their platform can make your existing tools and infrastructure telehealth-capable with secure APIs and seamless access to an ecosystem of services such as interpreting in 200+ languages and American Sign Language. This flexible solution also integrates with your existing ADT, EMR, practice management and billing systems. Bluestream’s APIs enable integration of the Bluestream Health virtual care platform into your application.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+// capable_health = {
+//   verified: false,
+//   logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/capable.svg",
+//   type: "SOAP",
+//   documentationLink: "https://docs.capablehealth.com/docs",
+//   docTooling: "GITHUB",
+//   wrapper: "SWAGGER",
+//   documentation: true,
+//   sandbox: true,
+//   name: "Capable Health",
+//   publisher: "Capable Health",
+//   firstRelease: "",
+//   latestRelease: "",
+//   currentVersion: "",
+//   callsCount: 0,
+//   tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+//   dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+//   resources: [
+//     {
+//       title: "Medications",
+//       items: ["Immunization", "Medication", "MedicationStatement"],
+//     },
+//     {
+//       title: "Individuals",
+//       items: ["Patient"],
+//     },
+//     {
+//       title: "Summary",
+//       items: ["Individuals", "Condition"],
+//     },
+//     {
+//       title: "Diagnostics",
+//       items: ["DiagnosticReport", "Observation"],
+//     },
+//     {
+//       title: "#N/A",
+//       items: ["MedicationOrder", "Procedure"],
+//     },
+//   ],
+//   fhirCompliant: true,
+//   nonFhirEndpoints: [],
+//   databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+//   openApi: true, // if false then ask for pricing
+//   openPricing: true,
+//   textTags: ["APP", "PATIENT", "FHIR"],
+//   description: [
+//     "OnPatient is a separate application for patients, offering a range of tools for managing health day-to-day. It offers reminders of upcoming appointments, bill-paying capabilities, and allows for text messaging with health professionals.",
+//   ],
+//   triggers: [],
+//   actions: ["Get Absence Record", "Get Something"],
+// };
+
+clinicaltrialsgov = {
+  verified: false,
+  logoUrl:
+    "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/clinicaltrial.svg",
+  type: "SOAP",
+  documentationLink: "https://clinicaltrials.gov/api/gui",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "ClinicalTrials.gov",
+  publisher: "ClinicalTrials.gov",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Info",
+      items: [
+        "Data Version",
+        "API Version",
+        "API Definitions",
+        "Study Structure",
+        "Study Fields List",
+        "Study Statistics",
+        "Search Areas",
+      ],
+    },
+    {
+      title: "Query",
+      items: ["Full Studies", "Study Fields", "Field Values"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["NATIONAL SYSTEM", "NON FHIR"],
+  description: [
+    "The ClinicalTrials.gov application programming interface (API) provides a toolbox for programmers and other technical users to use to access all posted information on ClinicalTrials.gov study records data. The API is designed for encoding simple and complex search expressions and parameters in URLs.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+doximity = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/doximity.svg",
+  type: "SOAP",
+  documentationLink: "https://www.doximity.com/developers/documentation",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "DOXIMITY",
+  publisher: "DOXIMITY",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: ["non Fhir Identity", "Registration", "Share"],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["PLATFORM", "NON FHIR"],
+  description: [
+    "Doximity is an online professional networking platform that allows physicians, nurse practitioners and physician assistants to find each other and communicate without violating privacy laws.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+human_api = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/humanapi.svg",
+  type: "SOAP",
+  documentationLink:
+    "https://reference.humanapi.co/reference/getting-started#getting-started",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "HUMAN API",
+  publisher: "HUMAN API",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "2.3",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "MEDICAL API",
+      items: [
+        "Allergies",
+        "Encounters",
+        "Functional Statuses",
+        "Instructions",
+        "Medications",
+        "Narratives",
+        "Organizations",
+        "Plans of Care",
+        "Problems",
+        "Procedures",
+        "Profile",
+        "Test Results",
+        "Vitals",
+        "CCD",
+        "Demographics",
+        "Social History",
+      ],
+    },
+    {
+      title: "WELLNESS API",
+      items: [
+        "Wearable API",
+        "Introduction",
+        "Activities",
+        "Activity Summaries",
+        "Blood Glucose",
+        "Blood Oxygen",
+        "Blood Pressure",
+        "Body Fat",
+        "Body Mass Index",
+        "Heart Rate",
+        "Heart Rate Summaries",
+        "Height",
+        "Human (Summary)",
+        "Meals",
+        "Profile",
+        "Sleeps",
+        "Sleep Summaries",
+        "Weight",
+      ],
+    },
+    {
+      title: "REPORTS",
+      items: [
+        "Reports",
+        "Covid Report",
+        "Healthcheck Report",
+        "Highlights Report",
+        "Timeline Report",
+        "API Data Report",
+        "CCDA Report",
+        "Unity Report",
+        "APS Report",
+      ],
+    },
+    {
+      title: "UTILITY",
+      items: ["Sources"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["NON FHIR"],
+  description: [
+    "Human API enables insurance, life sciences, and digital health companies to better serve their customers through access to our proprietary health data network, touching more than 260 million lives across the U.S.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+dexcare_health = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/dexcare.svg",
+  type: "SOAP",
+  documentationLink: "https://developers.dexcarehealth.com/api/",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "DEXCARE Health",
+  publisher: "DEXCARE Health",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Booking",
+    "Patient",
+    "Provider Agnostic",
+    "Time Slots",
+    "Provider Specific",
+    "Time Slots",
+    "Virtual Visits",
+    "Care Options",
+    "Reporting",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["PLATFORM", "NON FHIR"],
+  description: [
+    "DexCare is an innovative digital solution from Providence that increases access to healthcare based on health needs, preferences, location and schedule. They are a data-driven intelligence company focused on making access to healthcare better for everyone. DexCare’s core offering is a software platform, provided exclusively to health systems, that orchestrates digital demand and health system capacity across all lines of care.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+health_research = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Health Research Data Catalogue API",
+  publisher: "NHS Digital",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: ["Get a list of data", "sets", "Get data set details"],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["NATIONAL SYSTEM", "METADATA", "RESEARCH", "NON FHIR"],
+  description: [
+    "This NHS API is used to retrieve metadata information suitable for publication in a health research data catalogue. It is limited to metadata information about national health-related data sets (such as description, size of the population contained within that data set and the legal basis for access) that can help researchers and innovators decide whether a data set could be useful to their research and help them to make further health discoveries..",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+truepill = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/truepill.svg",
+  type: "SOAP",
+  documentationLink: "https://truepill.com/api-docs",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "TRUEPILL",
+  publisher: "TRUEPILL",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Fulfillment",
+      items: [
+        "Patient",
+        "Prescription",
+        "Fill request",
+        "Refills",
+        "Multi-dose packaging",
+        "Custom packaging",
+        "Over-the-Counter",
+        "(OTC) products",
+      ],
+    },
+    {
+      title: "Insurance",
+      items: [
+        "Insurance request",
+        "Copay request",
+        "Insurance claim",
+        "details",
+      ],
+    },
+    {
+      title: "Prior authorization",
+      items: ["Prior authorization", "request"],
+    },
+    {
+      title: "Consult",
+      items: ["Create a consult", "request"],
+    },
+    {
+      title: "Lab Orders",
+      items: ["Creating a Patient", "Requesting a Lab Kit"],
+    },
+    {
+      title: "Diagnostics",
+      items: ["Observation", "DiagnosticReport"],
+    },
+    {
+      title: "Kit Registration",
+      items: ["Registering a Lab", "Kit"],
+    },
+    {
+      title: "Results",
+      items: ["Receiving Order", "Updates", "Lab Results"],
+    },
+    {
+      title: "Benefits verification",
+      items: ["Coverage Request"],
+    },
+    {
+      title: "Patient safety",
+      items: [
+        "Patient survey",
+        "Allergy, conditions",
+        "and drug lookup",
+        "Drug utilization",
+        "Create a DUR request",
+      ],
+    },
+    {
+      title: "Patient record",
+      items: ["Create a patient", "record", "Update a patient", "record"],
+    },
+    {
+      title: "Health questionnaire",
+      items: [
+        "Question types",
+        "Create a health",
+        "questionnaire",
+        "Updating a health",
+        "Submit answers",
+      ],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["PLATFORM", "PHARMACY", "TELEHEALTH", "NON FHIR"],
+  description: [
+    "Powering the future of direct-to-patient healthcare, Truepill focuses on unmatched access and convenience for patients. They have expanded their offering to include telehealth services and their own patient-facing brands. And have grown to seven locations - including UK.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+medplum_fhir = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/medplum.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "MEDPLUM",
+  publisher: "MEDPLUM",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Conformance",
+      items: [
+        "OperationDefinition",
+        "CompartmentDefinition",
+        "ExampleScenario",
+        "GraphDefinition",
+        "ImplementationGuide",
+        "MessageDefinition",
+        "OperationDefinition",
+        "StructureMap",
+      ],
+    },
+    {
+      title: "Security",
+      items: ["Consent", "Provenance", "AuditEvent"],
+    },
+    {
+      title: "Public Health & Research",
+      items: ["ResearchStudy", "ResearchSubject"],
+    },
+    {
+      title: "Terminology",
+      items: ["CodeSystem", "ValueSet", "ConceptMap", "NamingSystem"],
+    },
+    {
+      title: "Care Provision",
+      items: [
+        "CarePlan",
+        "CareTeam",
+        "Goal",
+        "NutritionOrder",
+        "ServiceRequest",
+        "Risk Assessment",
+        "RequestGroup",
+        "VisionPrescription",
+      ],
+    },
+    {
+      title: "Entities #1",
+      items: [
+        "HealthCareService",
+        "Organization",
+        "OrganizationAffiliation",
+        "Location",
+      ],
+    },
+    {
+      title: "Entities #2",
+      items: [
+        "BiologicallyDerivedProduct",
+        "Device",
+        "DeviceMetric",
+        "Substance",
+      ],
+    },
+    {
+      title: "Individuals",
+      items: [
+        "Patient",
+        "Person",
+        "Practitioner",
+        "PractitionerRole",
+        "RelatedPerson",
+        "Group",
+      ],
+    },
+    {
+      title: "Summary",
+      items: [
+        "AllergyIntolerance",
+        "FamilyMemberHistory",
+        "Procedure",
+        "Condition",
+        "AdverseEvent",
+        "ClinicalImpression",
+        "Detected Issue",
+      ],
+    },
+    {
+      title: "Medication Definition",
+      items: [
+        "MedicinalProduct",
+        "MedicinalProductAuthorization",
+        "MedicinalProductContraIndication",
+        "MedicinalProductIndication",
+        "MedicinalProductIngredient",
+        "MedicinalProductInteraction",
+        "MedicinalProductManufactured",
+        "MedicinalProductPackaged",
+        "MedicinalProductPharmaceutical",
+        "MedicinalProductUndesirableEffect",
+        "SubstanceNucleicAcid",
+        "SubstancePolymer",
+        "SubstanceProtien",
+        "SubstanceReferenceInformation",
+        "SubstanceSpecification",
+        "SubstanceSourceMaterial",
+      ],
+    },
+    {
+      title: "Other",
+      items: [
+        "Binary",
+        "Basic",
+        "Bundle",
+        "Linkage",
+        "MessageHeader",
+        "Parameters",
+      ],
+    },
+    {
+      title: "Definitional Artifacts",
+      items: [
+        "ActivityDefinition",
+        "DeviceDefinition",
+        "EventDefinition",
+        "ObservationDefinition",
+        "PlanDefinition",
+        "SpecimenDefinition",
+      ],
+    },
+    {
+      title: "Evidence-Based Medicines",
+      items: [
+        "Effect Evidence Synthesis",
+        "Evidence",
+        "EvidenceVariable",
+        "Research Definition",
+        "Research Element Definition",
+        "Risk Evidence Synthesis",
+      ],
+    },
+    {
+      title: "Medications",
+      items: [
+        "Immunization",
+        "Medication",
+        "MedicationRequest",
+        "Immunization Evaluation",
+        "Immunization Recommendation",
+        "Medication Administration",
+        "Medication Dispense",
+        "Medication Knowledge",
+        "Medication Statement",
+      ],
+    },
+    {
+      title: "Diagnostic",
+      items: [
+        "Observation",
+        "Media",
+        "DiagnosticReport",
+        "Specimen",
+        "BodyStructure",
+        "ImagingStudy",
+        "QuestionnaireResponse",
+        "Questionnaire",
+        "MolecularSequence",
+      ],
+    },
+    {
+      title: "Quality Reporting & Testing",
+      items: ["Measure", "MeasureReport"],
+    },
+    {
+      title: "Workflow",
+      items: [
+        "Appointment",
+        "Schedule",
+        "Slot",
+        "Appointment Response",
+        "Verification Result",
+        "Task",
+      ],
+    },
+    {
+      title: "Request & Response",
+      items: [
+        "Communication",
+        "CommunicationRequest",
+        "DeviceRequest",
+        "DeviceUseStatement",
+        "GuidanceResponse",
+        "SupplyRequest",
+        "SupplyDelivery",
+      ],
+    },
+    {
+      title: "General",
+      items: [
+        "Account",
+        "ChargeItem",
+        "ChargeItemDefinition",
+        "Contract",
+        "ExplanationOfBenefit",
+        "InsurancePlan",
+      ],
+    },
+    {
+      title: "Payment",
+      items: ["PaymentNotice", "PaymentReconciliation"],
+    },
+    {
+      title: "Billing",
+      items: ["Claim", "Claim Response", "Invoice"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "APP", "HOSPITAL", "CLINICIAN", "FHIR"],
+  description: [
+    "Medplum is a headless EHR that makes it easier to build healthcare apps quickly with less code. It is basically a developer platform that enables flexible and rapid development of healthcare apps by making it easy to build webapps that are compliant and interoperability ready.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+medplum_nonfhir = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/medplum.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "MEDPLUM",
+  publisher: "MEDPLUM",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Project",
+    "ClientApplication",
+    "User",
+    "ProjectMembership",
+    "Bot",
+    "Login",
+    "PasswordChangeRequest",
+    "JsonWebKey",
+    "AccessPolicy",
+    "UserConfiguration",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "APP", "HOSPITAL", "CLINICIAN", "NON FHIR"],
+  description: [
+    "Medplum is a headless EHR that makes it easier to build healthcare apps quickly with less code. It is basically a developer platform that enables flexible and rapid development of healthcare apps by making it easy to build webapps that are compliant and interoperability ready.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+booking_live = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/bookinglive.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "BookingLive",
+  publisher: "BookingLive",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Start Order",
+    "Get Order Details",
+    "Add To Order",
+    "Cancel Order",
+    "Complete Order",
+    "Get all orders by",
+    "user",
+    "Email",
+    "Send Email to",
+    "customer",
+    "Update order parms",
+    "Get Events By",
+    "Product",
+    "IDs",
+    "Get message content",
+    "Get product details",
+    "by IDs",
+    "Set order",
+    "notification",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["APPOINTMENT", "APP", "CLINICIAN", "PATIENT", "NON FHIR"],
+  description: [
+    "It provides a way to create web, desktop & mobile applications that integrate your BookingLive account. BookingLive makes software to manage bookings, schedules & appointments for business.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+charmhealth = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/charmhealth.svg",
+  type: "SOAP",
+  documentationLink: "https://www.charmhealth.com/resources/fhirapi/",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Charmhealth",
+  publisher: "Charmhealth",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "1.2",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Patient Selection",
+    "Demographics",
+    "Smoking Status",
+    "Procedures",
+    "Problems",
+    "Medications",
+    "Allergies",
+    "Lab Results",
+    "Vitals",
+    "Vaccines",
+    "Implants",
+    "Assessments",
+    "Treatment Plan",
+    "Goals",
+    "Health Concerns",
+    "Care Team",
+    "CCDA",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "TELEHEALTH", "INTEGRATED HEALTH", "HOSPITAL", "NON FHIR"],
+  description: [
+    "CharmHealth product suite includes Integrated EHR, Practice Management, RCM Solution, Integrated TeleHealth for Remote Patient Care, Patient Portal for Patient Engagement, Connect Solution for Collaborative Communication, along with a slew of Mobile apps across platforms.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+nexhealth = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/nexhealth.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Nexhealth",
+  publisher: "Nexhealth",
+  firstRelease: "11/2022",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Institutions",
+    "Locations",
+    "Operatories",
+    "Patients",
+    "Procedures",
+    "Providers",
+    "Scheduling",
+    "Appointment Types",
+    "Appointments",
+    "Appointment Slots",
+    "Availabilities",
+    "PRACTICE FINANCIALS",
+    "Adjustments",
+    "Charges",
+    "Insurance Plans",
+    "Payments",
+    "PATIENT",
+    "COMMUNICATION",
+    "Conversations",
+    "Forms",
+    "Patient Documents",
+    "Patient Recalls",
+    "Recall Types",
+    "NEXHEALTH API",
+    "Authenticates",
+    "Nex Staff",
+    "Sync Status",
+    "Webhook Endpoints",
+    "Webhook",
+    "Subscriptions",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "PLATFORM", "WORKFLOW MANAGEMENT", "NON FHIR"],
+  description: [
+    "NexHealth is a real-time patient booking platform for people, their doctors, and healthcare developers. Developers use NexHealth to connect with heath record systems using one RESTful interface. Instead of building dozens of integrations, NexHealth partners can reach millions of patients with one API.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+definitive_health = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/nexhealth.svg",
+  type: "SOAP",
+  documentationLink: "https://api.defhc.com/v4/Documentation",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Definitive Health",
+  publisher: "Definitive Health",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "4",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Authentication",
+    "Executive",
+    "Hospital",
+    "NewsItem",
+    "RFP",
+    "Reports",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: [
+    "CLINICIAN",
+    "PLATFORM",
+    "DATA & ANALYTICS",
+    "HOSPITALS",
+    "NON FHIR",
+  ],
+  description: [
+    "Definitive Health provides industry-leading intelligence on the healthcare provider market. They aim to transform data, analytics and expertise into healthcare commercial intelligence. They help clients uncover the right markets, opportunities and people, so they can shape tomorrow's healthcare industry.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+athena_health_nonfhir = {
+  verified: false,
+  logoUrl:
+    "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/athena_health.svg",
+  type: "SOAP",
+  documentationLink: "https://docs.athenahealth.com/api/",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Athena Health",
+  publisher: "Athena Health",
+  firstRelease: "11.2022",
+  latestRelease: "",
+  currentVersion: "1",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [],
+  fhirCompliant: true,
+  nonFhirEndpoints: [
+    "Appointments",
+    "Chart",
+    "Data Imports",
+    "Documents and Forms",
+    "Encounter",
+    "Hospital",
+    "Provider",
+    "Insurance",
+    "Financial",
+    "Obstetrics(OB)",
+    "Episode",
+    "Patient",
+    "Practice",
+    "Configuration",
+    "Quality Management",
+    "Pop Health",
+  ],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "TELEHEALTH", "INTEGRATED CARE", "NON FHIR"],
+  description: [
+    "Athenahealth offers medical groups, hospitals and health systems cloud-based EHR, practice management and patient engagement services that seamlessly connects care and drives results for every client.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+athena_health_fhir = {
+  verified: false,
+  logoUrl:
+    "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/athena_health.svg",
+  type: "SOAP",
+  documentationLink: "https://docs.athenahealth.com/api/",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Athena Health",
+  publisher: "Athena Health",
+  firstRelease: "11/2022",
+  latestRelease: "",
+  currentVersion: "1",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Summary",
+      items: [
+        "AllergyIntolerance",
+        "ClinicalImpression",
+        "Condition",
+        "Procedure",
+      ],
+    },
+    {
+      title: "Medications",
+      items: [
+        "Immunization",
+        "MedicationRequest",
+        "Medication",
+        "MedicationDispense",
+        "MedicationStatement",
+      ],
+    },
+    {
+      title: "MedicalAdministration",
+      items: ["MedicationOrder", "PracticeConfiguration", "Provider"],
+    },
+    {
+      title: "Individuals",
+      items: ["Patient", "Practitioner", "Group"],
+    },
+    {
+      title: "Care Provision",
+      items: ["CarePlan", "CareTeam", "Goal", "ServiceRequest"],
+    },
+    {
+      title: "Security",
+      items: ["Provenance"],
+    },
+    {
+      title: "Other",
+      items: ["Binary"],
+    },
+    {
+      title: "Documents",
+      items: ["DocumentReference"],
+    },
+    {
+      title: "Workflow",
+      items: ["Appointment"],
+    },
+    {
+      title: "Management",
+      items: ["Encounter"],
+    },
+    {
+      title: "Diagnostics",
+      items: ["Observation", "DiagnosticReport"],
+    },
+    {
+      title: "Entities #2",
+      items: ["Substance", "Device"],
+    },
+    {
+      title: "Entities #1",
+      items: ["Location", "Organization"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "TELEHEALTH", "INTEGRATED CARE", "FHIR"],
+  description: [
+    "Athenahealth offers medical groups, hospitals and health systems cloud-based EHR, practice management and patient engagement services that seamlessly connects care and drives results for every client.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+health_gorilla = {
+  verified: false,
+  logoUrl:
+    "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/athena_health.svg",
+  type: "SOAP",
+  documentationLink:
+    "https://developer.healthgorilla.com/reference/getting-started-with-apis",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "Health Gorilla",
+  publisher: "Health Gorilla",
+  firstRelease: "11/30/22",
+  latestRelease: "",
+  currentVersion: "1.1.0",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Summary",
+      items: [
+        "AllergyIntolerance",
+        "FamilyMemberHistory",
+        "Condition",
+        "Procedure",
+      ],
+    },
+    {
+      title: "Medications",
+      items: [
+        "Immunization",
+        "MedicationRequest",
+        "MedicationDispense",
+        "MedicationStatement",
+      ],
+    },
+    {
+      title: "Request & Response",
+      items: ["DeviceUseStatement"],
+    },
+    {
+      title: "Individuals",
+      items: ["Patient", "Practitioner", "PractitionerRole"],
+    },
+    {
+      title: "Care Provision",
+      items: [
+        "CarePlan",
+        "NutritionOrder",
+        "Goal",
+        "ServiceRequest",
+        "RequestGroup",
+      ],
+    },
+    {
+      title: "Security",
+      items: ["Consent", "Provenance"],
+    },
+    {
+      title: "Other",
+      items: ["Bundle"],
+    },
+    {
+      title: "Documents",
+      items: ["DocumentReference", "Composition"],
+    },
+    {
+      title: "Workflow",
+      items: ["Appointment", "Schedule", "Slot"],
+    },
+    {
+      title: "Management",
+      items: ["Encounter"],
+    },
+    {
+      title: "Diagnostics",
+      items: ["Observation", "DiagnosticReport"],
+    },
+    {
+      title: "Support",
+      items: ["Coverage"],
+    },
+    {
+      title: "Entities #1",
+      items: ["Location", "Organization"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: [
+    "EHR",
+    "PLATFORM",
+    "INTEGRATED CARE",
+    "CLINICIAN",
+    "HOSPITAL",
+    "FHIR",
+  ],
+  description: [
+    "Health Gorilla is an interoperability platform providing permitted access to actionable patient data. Customers use Health Gorilla to improve outcomes, streamline workflows, and create a more equitable healthcare ecosystem. Health Gorilla is your single source of truth for health data.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+nextgen_healthcare = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/NextGen.svg",
+  type: "SOAP",
+  documentationLink: "#",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "NextGen Healthcare",
+  publisher: "NextGen Healthcare",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Summary",
+      items: ["AllergyIntolerance", "Condition", "Procedure"],
+    },
+    {
+      title: "Medications",
+      items: ["Immunization", "MedicationRequest", "MedicationStatement"],
+    },
+    {
+      title: "Individuals",
+      items: ["Patient", "Practitioner", "RelatedPerson"],
+    },
+    {
+      title: "Care Provision",
+      items: ["CarePlan", "CareTeam", "Goal"],
+    },
+    {
+      title: "Security",
+      items: ["Provenance"],
+    },
+    {
+      title: "Documents",
+      items: ["DocumentReference"],
+    },
+    {
+      title: "Management",
+      items: ["Encounter"],
+    },
+    {
+      title: "Diagnostics",
+      items: ["Observation", "DiagnosticReport"],
+    },
+    {
+      title: "Entities #2",
+      items: ["Device"],
+    },
+    {
+      title: "Entities #1",
+      items: ["Location", "Organization"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["EHR", "PLATFORM", "CLINICIANS", "HOSPITALS", "FHIR"],
+  description: [
+    "Since 1974, NextGen Healthcare has been on a mission to empower ambulatory practices with innovative health IT solutions. NextGen® Office is basically a cloud-based EHR designed to support your practice growth, save staff time, and increase patient volume. This fully integrated clinical and billing platform features specialty-specific EHR content, mobile accessibility, a revenue cycle management system, and a convenient patient portal.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+invoacer = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/3.svg",
+  type: "REST",
+  documentationLink:
+    "https://nucleus.innovaccer.com/devPortal/documentation/api-overview",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: false,
+  name: "Innvoaccer",
+  publisher: "Innvoaccer",
+  firstRelease: "01/01/2022",
+  latestRelease: "-",
+  currentVersion: "2.0.0",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Conformance",
+      items: [
+        "OperationDefinition",
+        "CompartmentDefinition",
+        "ExampleScenario",
+        "GraphDefinition",
+        "ImplementationGuide",
+        "MessageDefinition",
+        "OperationDefinition",
+        "StructureMap",
+      ],
+    },
+    {
+      title: "Security",
+      items: ["Consent", "Provenance", "AuditEvent"],
+    },
+    {
+      title: "Public Health & Research",
+      items: ["ResearchStudy", "ResearchSubject"],
+    },
+    {
+      title: "Terminology",
+      items: ["CodeSystem", "ValueSet", "ConceptMap", "NamingSystem"],
+    },
+    {
+      title: "Care Provision",
+      items: [
+        "CarePlan",
+        "CareTeam",
+        "Goal",
+        "NutritionOrder",
+        "ServiceRequest",
+        "Risk Assessment",
+        "RequestGroup",
+        "VisionPrescription",
+      ],
+    },
+    {
+      title: "Entities #1",
+      items: [
+        "HealthCareService",
+        "Organization",
+        "OrganizationAffiliation",
+        "Location",
+      ],
+    },
+    {
+      title: "Entities #2",
+      items: [
+        "BiologicallyDerivedProduct",
+        "Device",
+        "DeviceMetric",
+        "Substance",
+      ],
+    },
+    {
+      title: "Individuals",
+      items: [
+        "Patient",
+        "Person",
+        "Practitioner",
+        "PractitionerRole",
+        "RelatedPerson",
+        "Group",
+      ],
+    },
+    {
+      title: "Summary",
+      items: [
+        "AllergyIntolerance",
+        "FamilyMemberHistory",
+        "Procedure",
+        "Condition",
+        "AdverseEvent",
+        "ClinicalImpression",
+        "Detected Issue",
+      ],
+    },
+    {
+      title: "Medication Definition",
+      items: [
+        "MedicinalProduct",
+        "MedicinalProductAuthorization",
+        "MedicinalProductContraIndication",
+        "MedicinalProductIndication",
+        "MedicinalProductIngredient",
+        "MedicinalProductInteraction",
+        "MedicinalProductManufactured",
+        "MedicinalProductPackaged",
+        "MedicinalProductPharmaceutical",
+        "MedicinalProductUndesirableEffect",
+        "SubstanceNucleicAcid",
+        "SubstancePolymer",
+        "SubstanceProtien",
+        "SubstanceReferenceInformation",
+        "SubstanceSpecification",
+        "SubstanceSourceMaterial",
+      ],
+    },
+    {
+      title: "Other",
+      items: [
+        "Binary",
+        "Basic",
+        "Bundle",
+        "Linkage",
+        "MessageHeader",
+        "Parameters",
+      ],
+    },
+    {
+      title: "Definitional Artifacts",
+      items: [
+        "ActivityDefinition",
+        "DeviceDefinition",
+        "EventDefinition",
+        "ObservationDefinition",
+        "PlanDefinition",
+        "SpecimenDefinition",
+      ],
+    },
+    {
+      title: "Evidence-Based Medicines",
+      items: [
+        "Effect Evidence Synthesis",
+        "Evidence",
+        "EvidenceVariable",
+        "Research Definition",
+        "Research Element Definition",
+        "Risk Evidence Synthesis",
+      ],
+    },
+    {
+      title: "Medications",
+      items: [
+        "Immunization",
+        "Medication",
+        "MedicationRequest",
+        "Immunization Evaluation",
+        "Immunization Recommendation",
+        "Medication Administration",
+        "Medication Dispense",
+        "Medication Knowledge",
+        "Medication Statement",
+      ],
+    },
+    {
+      title: "Diagnostic",
+      items: [
+        "Observation",
+        "Media",
+        "DiagnosticReport",
+        "Specimen",
+        "BodyStructure",
+        "ImagingStudy",
+        "QuestionnaireResponse",
+        "Questionnaire",
+        "MolecularSequence",
+      ],
+    },
+    {
+      title: "Quality Reporting & Testing",
+      items: ["Measure", "MeasureReport"],
+    },
+    {
+      title: "Workflow",
+      items: [
+        "Appointment",
+        "Schedule",
+        "Slot",
+        "Appointment Response",
+        "Verification Result",
+        "Task",
+      ],
+    },
+    {
+      title: "Request & Response",
+      items: [
+        "Communication",
+        "CommunicationRequest",
+        "DeviceRequest",
+        "DeviceUseStatement",
+        "GuidanceResponse",
+        "SupplyRequest",
+        "SupplyDelivery",
+      ],
+    },
+    {
+      title: "General",
+      items: [
+        "Account",
+        "ChargeItem",
+        "ChargeItemDefinition",
+        "Contract",
+        "ExplanationOfBenefit",
+        "InsurancePlan",
+      ],
+    },
+    {
+      title: "Payment",
+      items: ["PaymentNotice", "PaymentReconciliation"],
+    },
+    {
+      title: "Billing",
+      items: ["Claim", "Claim Response", "Invoice"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["PLATFORM", "CLINICIANS", "HOSPITALS", "DATA & ANALYTICS", "FHIR"],
+  description: [
+    "Innovaccer Inc is a leading healthcare data activation platform company focused on delivering more efficient and effective healthcare through the use of pioneering analytics and transparent, clean, and accurate data..",
+  ],
+  triggers: [],
+  actions: [],
+};
