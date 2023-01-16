@@ -397,6 +397,102 @@ scr_app = {
 };
 
 
+
+
+
+
+
+immunisation_history = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+  type: "SOAP",
+  documentationLink: "https://digital.nhs.uk/developer/api-catalogue/immunisation-history-fhir",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: false,
+  sandbox: true,
+  name: "Immunisation History",
+  publisher: "Immunisation History",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Medications",
+      items: ["Immunization"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["NATIONAL SYSTEM", "FHIR"],
+  description: [
+    "Using this API, users can get a patient's coronavirus (COVID-19) immunisation history, based on their NHS number. You can also get details on other types of immunisation. All immunisation records are verified to ensure the NHS number is correct before making them available via the API. In most cases this is automatic, and the record is available within 48 hours of the immunisation event, sometimes sooner.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+onpatient = {
+  verified: false,
+  logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+  type: "SOAP",
+  documentationLink:
+    "https://www.onpatient.com/api_fhir/api-docs/documentation/#main-api",
+  docTooling: "GITHUB",
+  wrapper: "SWAGGER",
+  documentation: true,
+  sandbox: true,
+  name: "OnPatient",
+  publisher: "OnPatient",
+  firstRelease: "",
+  latestRelease: "",
+  currentVersion: "",
+  callsCount: 0,
+  tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+  dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+  resources: [
+    {
+      title: "Medications",
+      items: ["Immunization", "Medication", "MedicationStatement"],
+    },
+    {
+      title: "Individuals",
+      items: ["Patient"],
+    },
+    {
+      title: "Summary",
+      items: ["Individuals", "Condition"],
+    },
+    {
+      title: "Diagnostics",
+      items: ["DiagnosticReport", "Observation"],
+    },
+    {
+      title: "#N/A",
+      items: ["MedicationOrder", "Procedure"],
+    },
+  ],
+  fhirCompliant: true,
+  nonFhirEndpoints: [],
+  databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+  openApi: true, // if false then ask for pricing
+  openPricing: true,
+  textTags: ["APP", "PATIENT", "FHIR"],
+  description: [
+    "OnPatient is a separate application for patients, offering a range of tools for managing health day-to-day. It offers reminders of upcoming appointments, bill-paying capabilities, and allows for text messaging with health professionals.",
+  ],
+  triggers: [],
+  actions: ["Get Absence Record", "Get Something"],
+};
+
+
+
 openhealthhub = {
     verified: false,
     logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/openhealthhub.svg",
