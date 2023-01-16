@@ -395,3 +395,173 @@ scr_app = {
   triggers: [],
   actions: ["Get Absence Record", "Get Something"],
 };
+
+
+openhealthhub = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/openhealthhub.svg",
+    type: "SOAP",
+    documentationLink: "https://developer.openhealthhub.com/?python#fhir-4-api-reference",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "OpenHealthHub",
+    publisher: "OpenHealthHub",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Care Provision",
+            items: ["CareTeam", "Careplan"]
+        },
+        {
+            title: "Diagnostics",
+            items: ["QuestionnaireResponse"]
+        },
+        {
+            title: "Medication Definition",
+            items: ["VitalSigns"]
+        },
+        {
+            title: "Other",
+            items: ["Subscription"]
+        },
+        {
+            title: "Definitional Artifacts",
+            items: ["PlanDefinition", "Questionnaire"]
+        },
+        {
+            title: "Individuals",
+            items: ["Practitioner"]
+        },
+        {
+            title: "#N/A",
+            items: ["DecryptingQuestionnaireResponse", "EncryptilgQuestionnaireResponse", "Tines", "Binay (Upload Key)"]
+        },
+        
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["APP", "CLINICIANS", "HOSPITAL", "PLATFORM", "FHIR"],
+    description: ["The Open HealthHub is the way for medical professionals, researchers and healthcare software companies to easily, securely and efficiently collect patient data via a mobile app or medical devices.Their integration technology is based on APIs and international standards for medical data such as FHIR and SNOMED CT allows for easy integration of the Hub within the infrastructure of any hospital or medical clinic."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+
+vitalware = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/vitalware.svg",
+    type: "SOAP",
+    documentationLink: "#https://developer.vitalware.com/docs/API/",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "VitalWare",
+    publisher: "VitalWare",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "2",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["Authentication", "Sherpa Search", "Sherpa Search Suggestions", "List Favorites Folders", "List Favorites", "Primary Lookup", "ICD-10 CM Coding Guidelines", "Policy Manager", "Policy Detail"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["HOSPITAL", "PLATFORM", "NON FHIR"],
+    description: ["Vitalware provides healthcare mid-revenue cycle management solutions, data and consulting services, and expert consulting for health systems, hospitals, physicians, and healthcare revenue cycle-solutions providers. VitalCDM is a web-based, fully integrated solution that gives you access to a complete suite of hospital chargemaster management tools. You'll price appropriately, work more efficiently, and remain confidently compliant."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+
+cigna = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/cigna.svg",
+    type: "SOAP",
+    documentationLink: "https://developer.cigna.com/",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Cigna",
+    publisher: "Cigna",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Care Provision",
+            items: ["CareTeam", "Careplan", "Goal"]
+        },
+        {
+            title: "Security",
+            items: ["Provenance"]
+        },
+        {
+            title: "Management",
+            items: ["Encounter", "List"]
+        },
+        {
+            title: "Summary",
+            items: ["AllergyIntolerance", "Condition", "Procedure"]
+        },
+        {
+            title: "Entities #1",
+            items: ["Endpoint", "HealthcareService", "Location", "Organization", "OrganizationAffiliation"]
+        },
+        {
+            title: "Diagnostics",
+            items: ["DiagnosticReport", "Observation"]
+        },
+        {
+            title: "Medications",
+            items: ["Immunization", "MedicationRequest", "Medication", "MedicationKnowledge"]
+        },
+        {
+            title: "Documents",
+            items: ["DocumentReference"]
+        },
+        {
+            title: "Individuals",
+            items: ["Practitioner", "Patient", "PractitionerRole"]
+        },
+        {
+            title: "General",
+            items: ["ExplanationOfBenefit", "InsurancePlan"]
+        },
+        {
+            title: "Support",
+            items: ["Coverage"]
+        }
+        
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["FHIR"],
+    description: ["Cigna is an American multinational managed healthcare and insurance company based in Bloomfield, Connecticut. With the latest Cigna APIs, users can develop applications that empower users with secure access to their data. Cigna API documentation is now available to help developers get consistent and reliable data to use in development of their applications."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
