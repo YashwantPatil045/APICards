@@ -727,28 +727,7 @@ bluestream = {
 //   callsCount: 0,
 //   tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
 //   dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
-//   resources: [
-//     {
-//       title: "Medications",
-//       items: ["Immunization", "Medication", "MedicationStatement"],
-//     },
-//     {
-//       title: "Individuals",
-//       items: ["Patient"],
-//     },
-//     {
-//       title: "Summary",
-//       items: ["Individuals", "Condition"],
-//     },
-//     {
-//       title: "Diagnostics",
-//       items: ["DiagnosticReport", "Observation"],
-//     },
-//     {
-//       title: "#N/A",
-//       items: ["MedicationOrder", "Procedure"],
-//     },
-//   ],
+//   resources: [],
 //   fhirCompliant: true,
 //   nonFhirEndpoints: [],
 //   databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
@@ -2167,3 +2146,72 @@ invoacer = {
   triggers: [],
   actions: [],
 };
+
+
+
+upstream_outcomes = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/API%20Direct%20Logo/upstream-1.png",
+    type: "SOAP",
+    documentationLink: "#",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Upstream Outcomes",
+    publisher: "Upstream Outcomes Limited",
+    firstRelease: "01/09/2022",
+    latestRelease: "",
+    currentVersion: "22.09",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Care Provision",
+            items: ["CarePlan 2", "CareTeam 2", "Goal 2", "ServiceRequest 2", "NutritionOrder 2", "VisionPrescription 2", "RiskAssesment 1", "RequestGroup 2"]
+        },
+        {
+            title: "Security",
+            items: ["Provenance 3", "AuditEvent 3", "Consent 2"]
+        },
+        {
+            title: "Workflow",
+            items: ["Appointment 3", "Task 2", "AppointmentResponse 3", "Schedule 3", "Slot 3", "VerificationResult 0"]
+        },
+        {
+            title: "Conformance",
+            items: ["OperationDefinition", "MessageDefinition 1", "CapabilityStatement", "StructureDefinition", "ImplementationGuide 1", "SearchParameter 3", "OperationDefinition", "CompartmentDefinition 1", "StrutuctureMap 2", "GraphDefinition 1", "ExampleScenario 0"]
+        },
+        {
+            title: "Terminology",
+            items: ["CodeSystem", "ValueSet", "ConceptMap 3", "NamingSystem 1", "TerminologyCapabilities 0"]
+        },
+        {
+            title: "Documents",
+            items: ["Composition 2", "DocumentManifest 2", "DocumentReference 3", "CatalogEntry 0"]
+        },
+        {
+            title: "Diagnostics",
+            items: ["Observation", "Media 1", "DiagnosticReport 3", "Specimen 2", "BoduStructure 1", "ImagingStudy 3", "QuestionnaireResponse 3", "MolecularSequence 1"]
+        },
+        {
+            title: "Medication Definition",
+            items: ["MedicinalProduct 0", "MedicinalProductAuthorization 0", "MedicinalProductContraIndication 0", "MedicinalProductIndication 0", "MedicinalProductIngredient 0", "MedicinalProductInteraction 0", "MedicinalProductManufactured 0", "MedicinalProductPackaged 0", "MedicinalProductPharmaceutical 0", "MedicinalProductUndesirableEffect 0", "SubstanceNucleicAcid 0", "SubstancePolymer 0", "SubstanceProtien 0", "SubstanceReferenceInformation 0", "SubstanceSpecification 0", "SubstanceSourceMaterial 0"]
+        },
+        {
+            title: "Medications",
+            items: ["MedicationRequest 3", "MedicationAdministration 2", "MedicationDispense 2", "MedicationStatement 3", "Medication 3", "MedicationKnowledge 0", "Immunization 3", "ImmunizationEvaluation 0", "ImmunizationRecommendation 1"]
+        }
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["APP", "MOBILE", "PATIENT", "FHIR"],
+    description: ["Upstream Health provides innovative technologies and new service approaches for health and social care teams. They believe in an approach to care that examines and addresses root causes rather than symptoms can improve long-term outcomes and decrease healthcare costs."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
