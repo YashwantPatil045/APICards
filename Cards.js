@@ -2215,3 +2215,153 @@ upstream_outcomes = {
     actions: ["Get Absence Record", "Get Something"]
 }
 
+
+digital_child_health = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+    type: "SOAP",
+    documentationLink: "https://digital.nhs.uk/developer/api-catalogue/digital-child-health-fhir",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Digital Child Health",
+    publisher: "NHS",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Endpoints",
+            items: ["Blood Spot Test Outcome", "Newborn Hearing", "NIPE Outcome", "Professional Contacts", "Vaccinations"]
+        }
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["NATIONAL SYSTEM", "CHILD HEALTH", "FHIR"],
+    description: ["Use this API for integrations to share information about a child's health between healthcare workers. This information is recorded throughout a child's clinical pathway or patient journey."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+
+
+
+digital_medicine = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+    type: "SOAP",
+    documentationLink: "https://digital.nhs.uk/developer/api-catalogue/digital-child-health-fhir",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Digital Medicine",
+    publisher: "NHS",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Endpoints",
+            items: ["Allergies and adverse reactions", "Contacts with professionals", "Legal information", "Distribution list", "Eligibility criteria", "GP practice", "History", "Information and advice given", "Patient demographics", "Referral details", "Vaccinations", "Medications and medical devices", "Plan and requested actions", "Appliances"]
+        }
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["NATIONAL SYSTEM", "MEDICINE", "FHIR"],
+    description: ["Use this API to notify a patient's registered GP practice about care services delivered at a pharmacy, such as an immunisation."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+
+
+
+national_record_locator = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+    type: "SOAP",
+    documentationLink: "https://digital.nhs.uk/developer/api-catalogue/national-record-locator-fhir",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "National Record Locator",
+    publisher: "NHS",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Endpoints",
+            items: ["Read", "Search", "Create", "Create(Supersede)", "Update", "Delete"]
+        }
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["NATIONAL SYSTEM", "LOCATOR", "FHIR"],
+    description: ["Locate and access patient information shared by other healthcare organisations using the National Record Locator (NRL) FHIR API."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+
+
+summary_care = {
+    verified: false,
+    logoUrl: "https://www.alphalake.ai/hubfs/nhs-digital-logo-2.png",
+    type: "SOAP",
+    documentationLink: "https://digital.nhs.uk/developer/api-catalogue/summary-care-record-fhir",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Summary Care Record",
+    publisher: "NHS",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+        {
+            title: "Endpoints",
+            items: ["Get patient's latest Summary Care Record identifier", "Get patient's Summary Care Record", "Upload patient's Summary Care Record", "Send a privacy alert message", "Update patient's consent to share SCR"]
+        }
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["NATIONAL SYSTEM", "CARE RECORD", "FHIR"],
+    description: ["Access a patient's Summary Care Record (SCR), an electronic record of important patient information, using our FHIR API. This specification is written from an OAS file."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
