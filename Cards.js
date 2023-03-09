@@ -2365,3 +2365,129 @@ summary_care = {
     triggers: [],
     actions: ["Get Absence Record", "Get Something"]
 }
+
+
+
+onehealth = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/1health-logo.png",
+    type: "SOAP",
+    documentationLink: "https://app.swaggerhub.com/apis/1health/1h-platform/3#/info",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "1health",
+    publisher: "1health",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["Auth", "Insurance", "Billing", "Test", "Test-order", "Kit", "Kits", "Prescription", "Order", "Order v2", "Bulk Order", "Patient", "Provider", "HCP", "Store", "Doctor", "Vaccination Event", "Manufacturer", "Vaccine Administration Site", "Vaccine Type", "VAERS Report", "Vaccine", "IIS Report", "Review", "JotForm", "QuestionnaireTest"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["PLATFORM", "LABORATORY", "NON-FHIR"],
+    description: ["1health’s powerful platform delivers end-to-end solutions to help labs streamline their processes, gain efficiencies, and enhance their accessibility while our flexible APIs enable lab customers to drive better patient engagement and compliance through uniquely accessible and impactful solutions."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+juvonno = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/Juvonn.png",
+    type: "SOAP",
+    documentationLink: " https://app.swaggerhub.com/apis/globaloffice/juvonno/2.0.7",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Juvonno",
+    publisher: "Juvonno",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["appointments", "branches", "options", "commissions", "customers", "customer_groups", "insurancecompanies", "invoices", "payables", "payments", "staff", "wcbform6s", "accmforms", "accmmanagerforms", "accmreports", "Waitinglist"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["CLOUD BASED", "SCHEDULE", "CLINICIAN", "NON-FHIR"],
+    description: ["Juvonno is a cloud-based chiropractic software designed to help clinics schedule appointments, communicate with patients, and manage billing."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+alayacare = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/AlayaCare.png",
+    type: "SOAP",
+    documentationLink: "https://app.swaggerhub.com/apis/AlayaCare/api-medication-external/1.0#/info",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Alayacare",
+    publisher: "Alayacare",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "1.0",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["Medication", "Medication settings"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["CLOUD BASED", "PLATFORM", "NON-FHIR"],
+    description: [" AlayaCare is a cloud-based home health care platform for midsize to enterprise-level home care agencies and providers. Features include clinical documentation, back-office functionality, remote patient monitoring, client and family portals, and mobile care worker functionality."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
+
+
+
+fusion_base = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/FusionBase.png",
+    type: "SOAP",
+    documentationLink: "https://dataset-api.fusionbase.com/data-api/world-health-organization-who/",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Fusion Base (WHO Data)",
+    publisher: "Fusion Base (WHO Data)",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "1.0",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["List ", "data", "metadata"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["METADATA", "DEVELOPER", "NON-FHIR"],
+    description: ["Fusionbase offers a fast and easy to use API to get data live from sources like World Health Organization (WHO) and more."],
+    triggers: [],
+    actions: ["Get Absence Record", "Get Something"]
+}
