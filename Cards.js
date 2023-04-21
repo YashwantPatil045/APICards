@@ -2491,3 +2491,123 @@ fusion_base = {
     triggers: [],
     actions: ["Get Absence Record", "Get Something"]
 }
+
+servicenow = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/ServiceNow.png",
+    type: "SOAP",
+    documentationLink: "#",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Service Now",
+    publisher: "Service Now",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["CX", "NON-FHIR"],
+    description: ["ServiceNow is an American software company based in Santa Clara, California that develops a cloud computing platform to help companies manage digital workflows for enterprise operations."],
+    triggers: ["New record", "New/updated record", "Export new records", "Export new/updated records", "Scheduled record search"],
+    actions: ["Custom action", "Create record", "Create record using a template", "Get attachments contents", "Get object schema", "Search records", "Search records using query", "Update record", "Update record using a template", "Upload attachment"]
+}
+
+hubspot = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/Hubspot.png",
+    type: "SOAP",
+    documentationLink: "#",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Hubspot",
+    publisher: "Hubspot",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["CX", "NON-FHIR"],
+    description: ["HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service."],
+    triggers: ["New contact in contact list", "New record", "New records", "New/updated record", "New/updated records"],
+    actions: ["Custom action", "Add contact to list", "Add contact to workflow", "Create engagement", "Create record", "Create records", "Delete contact", "Get contacts associated with a company", "Get contacts in contact list", "Get owner details by ID", "Get record", "Remove contact from contact list", "Search pipeline stages", "Search record", "Update record", "Update records"]
+}
+
+uipath = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/uipath.png",
+    type: "SOAP",
+    documentationLink: "#",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Ui Path",
+    publisher: "Ui Path",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: [],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["Automation", "Integration", "NON-FHIR"],
+    description: ["UiPath is a global software company that makes robotic process automation software."],
+    triggers: [],
+    actions: ["Add Queue Item", "Custom Action", "Get Environments", "Get Job", "Get Machine Sessions", "Get Processes", "Get Queue Item", "Get Queues", "Get Robots", "Start Job(s)"]
+}
+
+robocorp = {
+    verified: false,
+    logoUrl: "https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/Image/ROBOCORP.png",
+    type: "SOAP",
+    documentationLink: "#",
+    docTooling: "GITHUB",
+    wrapper: "SWAGGER",
+    documentation: true,
+    sandbox: false,
+    name: "Robocorp",
+    publisher: "Robocorp",
+    firstRelease: "",
+    latestRelease: "",
+    currentVersion: "",
+    callsCount: 0,
+    tools: ["GITHUB", "SWAGGER"], // UPLOAD-IO, RAPID-API
+    dataFormats: ["JSON", "URL-ENCODED", "XML", "FORM-DATA"],
+    resources: [
+    ],
+    fhirCompliant: true,
+    nonFhirEndpoints: ["List processes", "List process work items", "Create a new work item into the process input", "List process run work items", "Get work item", "Retry processing of work item", "Mark work item as completed", "Update work item data (JSON)", "Register work item file upload", "Get work item file download link", "List process runs in a process", "Start a process with an optional work item data payload", "Start a process with an optional work item data payload", "Start a process with multiple work item data payloads", "Start a process with the provided configuration", "List process runs in a workspace", "Monitor process run status", " List robot runs", "Get robot run", "List robot run events", "List robot run console messages", "List robot run artifacts", "Get a robot artifact"],
+    databaseType: "", // PERIODIC-SCHEDULED, REAL-TIME, OTHER
+    openApi: true, // if false then ask for pricing
+    openPricing: true,
+    textTags: ["Automation", "Integration", "NON-FHIR"],
+    description: ["Robocorp cloud is a convenient way to manage, distribute, and monitor your robot workforce in real time across your organization from one central cloud command. Its Gen2 RPA platform brings powerful open-source dev tools and cloud native orchestration wrapped up in a consumption-based pricing model that enables teams to easily scale bots up and down on-demand."],
+    triggers: [],
+    actions: []
+}
